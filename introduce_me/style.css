@@ -1,3 +1,99 @@
+.box {
+    border : 1px solid red;
+}
+
+.back-img {
+    background-size: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-medium {
+    align-self: center;
+}
+
 .large-notice {
-    font-size: 2em;
+    font-size: 1.8em;
+    color: rgb(63, 65, 66);
+    padding-bottom: 1.2rem;
+    padding-left: 1rem;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.small-notice {
+    font-size: 0.8em;
+    padding-top: 1.5rem;
+    font-family: 'Noto Serif KR', serif;
+    padding-left: 11rem;
+}
+
+.input-box{
+    width: 500px;
+    height: 50px ;
+    border-radius: 24px;
+    border: 2px solid rgb(15, 76, 78);
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 8px;
+}
+
+.form-btn{
+    font-size: 1em;
+    color: #fff;
+    background-color: rgb(15, 76, 78);
+    border-color: rgb(15, 76, 78);
+    border-radius: 1rem;
+    padding: 0.7rem 1rem;
+}
+
+.bis-card{
+    border: 1px solid black;
+    background-color: rgb(15, 76, 78);
+    color: white;
+    padding: 30px;
+    border-radius: 0.1rem;
+    align-self: center;
+    box-shadow: 10px 10px 2px #808e95;
+}
+
+.bis-area{
+    background-size: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputcom {
+    font-size: 22px;
+    margin-bottom: 3px;
+}
+
+.name-blank{
+    margin-top: 200px;
+    margin-right: 200px;
+}
+
+.tel{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.link{
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #75ccb9;
+    font-size: 13px;
 }
