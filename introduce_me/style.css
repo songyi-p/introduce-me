@@ -142,8 +142,9 @@ a{
 }
 
 .box-container {
-    margin: 50px 250px;
+    padding: 50px 150px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 50px 93px;
 }
@@ -159,4 +160,8 @@ a{
 
 .img-control {
     z-index: 1;
+}
+
+.hidden {
+    display: none;
 }
