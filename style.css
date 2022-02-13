@@ -1,0 +1,167 @@
+@media (max-width : 767px){
+    .back-img {
+        height: 100%;
+    }
+}
+
+.box {
+    border : 1px solid red;
+}
+
+.box-type {
+    width: 200px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    line-height: 200px;
+    z-index: 2;
+}
+
+.box-type:hover {
+    transform: scale(1.1);
+}
+
+.nav-back{
+    background-color: rgb(15, 76, 78);
+}
+
+.nav-top {
+    margin-top: 5px;
+}
+
+.nav-fix {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.nav-item a:hover{
+    font-size: 17px;
+    color : #88c399;
+}
+
+.com-name-area {
+    background-size: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    align-self: center;
+}
+
+.large-notice {
+    font-size: 1.8em;
+    color: rgb(63, 65, 66);
+    padding-bottom: 1.2rem;
+    padding-left: 1rem;
+    font-family: 'Noto Serif KR', serif;
+    text-shadow: 2px 2px 5px #eceff1;
+}
+
+.small-notice {
+    font-size: 0.8em;
+    padding-top: 1.5rem;
+    font-family: 'Noto Serif KR', serif;
+    padding-left: 11rem;
+}
+
+.input-box{
+    width: 500px;
+    height: 50px ;
+    border-radius: 24px;
+    border: 2px solid rgb(15, 76, 78);
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 8px;
+}
+
+.form-btn{
+    font-size: 1em;
+    color: #fff;
+    background-color: rgb(15, 76, 78);
+    border-color: rgb(15, 76, 78);
+    border-radius: 2rem;
+    box-shadow: 1px 1px 0.5rem #808e95;;
+    padding: 0.7rem 1rem;
+}
+
+.bis-card{
+    border: 1px solid black;
+    background-color: rgb(15, 76, 78);
+    color: white;
+    padding: 30px;
+    border-radius: 0.1rem;
+    align-self: center;
+    box-shadow: 10px 10px 2px #808e95;
+    margin-bottom: -30px;
+}
+
+.bis-area{
+    background-size: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-com {
+    font-size: 24px;
+    margin-bottom: 3px;
+}
+
+.name-blank{
+    margin-top: 200px;
+    margin-right: 200px;
+}
+
+.tel{
+    margin-top: 25px;
+    margin-bottom: 5.8px;
+    font-size: 0.85rem;
+}
+
+.link{
+    font-size: 12px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.link a:hover{
+    color: #88c399;
+    font-size: 13.5px;
+}
+
+.box-container {
+    padding: 50px 150px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px 93px;
+}
+
+.introduce-area {
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.img-control {
+    z-index: 1;
+}
+
+.hidden {
+    display: none;
+}
